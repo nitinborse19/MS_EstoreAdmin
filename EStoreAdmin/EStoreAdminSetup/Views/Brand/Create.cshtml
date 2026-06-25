@@ -1,0 +1,47 @@
+﻿@using CatalogModel.Models.BrandModels;
+@model CreateBrandModel;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row mt-3">
+    <div class="h1 text-center">
+        Create Brand
+    </div>
+</div>
+<form method="post">
+    <div class="row mt-3">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <label asp-for="Name">Brand Name</label>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <input asp-for="Name" type="text" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <a class="btn btn-secondary" asp-action="Index" asp-controller="Brand">Cancel</a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <button class="btn btn-primary" asp-action="Create" asp-controller="Brand">Create</button>
+        </div>
+
+    </div>
+</form>
+
+
+@* <html>
+    <head>
+        <title>Create Brand</title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            
+        </div>
+    </body>
+</html> *@

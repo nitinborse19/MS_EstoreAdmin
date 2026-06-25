@@ -1,0 +1,99 @@
+﻿@using CatalogModel.Models.ProductModels;
+@model UpdateProductModel;
+@using CatalogModel.Models.BrandModels;
+@using CatalogModel.Models.TypeModels;
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    List<BrandModel> brandModels = ViewBag.Brands;
+    List<TypeModel> typeModels = ViewBag.Types;
+}
+
+<div class="row mt-3">
+    <div class="col-lg-8 mx-auto rounded border p-3">
+        <div class="h1 text-center">Edit Product</div>
+        <hr/>
+        <form method="post" enctype="multipart/form-data">
+            <div class="row mt-3">
+                <label class="form-label col-sm-3" asp-for="ProductName">Product Name</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" asp-for="ProductName" />
+                    <span class="text-danger" asp-validation-for="ProductName"></span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <label class="form-label col-sm-3" asp-for="ProductDescription">Product Description</label>
+                <div class="col-sm-6">
+                    <textarea class="form-control" asp-for="ProductDescription"></textarea>
+                    <span class="text-danger" asp-validation-for="ProductDescription"></span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <label class="form-label col-sm-3" asp-for="BrandId">Brand Name</label>
+                <div class="col-sm-6">
+                    <select asp-for="BrandId" class="form-control">
+                        <option value="0">--Select Brand--</option>
+                        @foreach (BrandModel brand in brandModels)
+                        {
+                            <option value="@brand.Id">@brand.Name</option>
+                        }}
+                    </select>
+                    <span class="text-danger" asp-validation-for="BrandId"></span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <label class="form-label col-sm-3" asp-for="TypeId">Type Name</label>
+                <div class="col-sm-6">
+                    <select asp-for="TypeId" class="form-control">
+                        <option value="0">--Select Type--</option>
+                        @foreach (TypeModel type in typeModels)
+                        {
+                            <option value="@type.Id">@type.Name</option>
+                        }})
+                    </select>
+                    <span class="text-danger" asp-validation-for="TypeId"></span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <label clss="form-label col-sm-3">Product Image</label>
+                <div class="col-sm-6">
+                    <img src="~/Products/@Model.ImageURL" alt="Product Image" width="100px" height="100px" />
+                </div>
+            </div>
+            
+            <div class="row mt-3">
+                <label class="form-label col-sm-3" asp-for="ImageFilePath">Product Image</label>
+                <div class="col-sm-6">
+                    <input type="file" class="form-control" asp-for="ImageFilePath" />
+                    <span class="text-danger" asp-validation-for="ImageFilePath"></span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <label class="form-label col-sm-3" asp-for="ProductCost">Product Cost</label>
+                <div class="col-sm-6">
+                    <input type="number" class="form-control" asp-for="ProductCost" />
+                    <span class="text-danger" asp-validation-for="ProductCost"></span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-6">
+                    <a class="btn btn-outline-secondary" asp-controller="Product" asp-action="Index">Cancel</a>
+                </div>
+                <div class="col-sm-6">
+                    <button class="btn btn-outline-primary" asp-controller="Product" asp-action="UpdateProduct" asp-route-id="@Model.Id">Update</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</div>

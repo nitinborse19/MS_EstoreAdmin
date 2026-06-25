@@ -1,0 +1,12 @@
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\bin\Debug\net8.0\CatalogModel.deps.json
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\bin\Debug\net8.0\CatalogModel.dll
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\bin\Debug\net8.0\CatalogModel.pdb
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.csproj.AssemblyReference.cache
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.AssemblyInfoInputs.cache
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.AssemblyInfo.cs
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.csproj.CoreCompileInputs.cache
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.dll
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\refint\CatalogModel.dll
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.pdb
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\ref\CatalogModel.dll

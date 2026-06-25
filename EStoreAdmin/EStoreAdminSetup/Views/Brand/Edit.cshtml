@@ -1,0 +1,55 @@
+﻿@using CatalogModel.Models.BrandModels;
+@model UpdateBrandModel;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mb-3">
+    <div class="h1 text-center">Edit Brand</div>
+</div>
+
+<form method="post">
+    <div class="row mb-3">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <label asp-for="Id">Brand Id</label>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <label asp-for="Id">@Model.Id</label>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <label asp-for="Name">Brand Name</label>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <input asp-for="Name" class="form-control" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <a class="btn btn-outline-secondary"
+               asp-controller="Brand" asp-action="Index">Cancel</a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <button class="btn btn-outline-primary" asp-action="UpdateBrand" asp-controller="Brand" asp-route-Id="@Model.Id">Update</button>
+        </div>
+    </div>
+</form>
+
+
+@* <html >
+    <head>
+        <title>Edit Brand</title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+           
+            
+  
+    </div>
+    </body>
+</html> *@

@@ -1,0 +1,17 @@
+D:\Microservice\EStoreAdmin\CatalogRepository\bin\Debug\net8.0\CatalogRepository.deps.json
+D:\Microservice\EStoreAdmin\CatalogRepository\bin\Debug\net8.0\CatalogRepository.runtimeconfig.json
+D:\Microservice\EStoreAdmin\CatalogRepository\bin\Debug\net8.0\CatalogRepository.dll
+D:\Microservice\EStoreAdmin\CatalogRepository\bin\Debug\net8.0\CatalogRepository.pdb
+D:\Microservice\EStoreAdmin\CatalogRepository\bin\Debug\net8.0\CatalogModel.dll
+D:\Microservice\EStoreAdmin\CatalogRepository\bin\Debug\net8.0\CatalogModel.pdb
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.csproj.AssemblyReference.cache
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.AssemblyInfoInputs.cache
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.AssemblyInfo.cs
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.csproj.CoreCompileInputs.cache
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogR.B2A0EE3A.Up2Date
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.dll
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\refint\CatalogRepository.dll
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.pdb
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.genruntimeconfig.cache
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\ref\CatalogRepository.dll

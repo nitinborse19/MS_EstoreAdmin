@@ -1,0 +1,47 @@
+﻿@using CatalogModel.Models.TypeModels;
+@model CreateTypeModel;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-3">
+    <div class="col-lg-6 mx-auto rounded border p-3">
+        <div class="h1 text-center mb-3">Create Type</div>
+        <hr />
+        <form method="post">
+            <div class="row mt-3">
+                <label class="form-label col-sm-3" asp-for="Name">Type Name</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" asp-for="Name" />
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-6">
+                    <a class="btn btn-outline-secondary" asp-controller="Type" asp-action="Index">Cancel</a>
+                </div>
+                <div class="col-sm-6">
+                    <button class="btn btn-outline-primary" asp-controller="Type" asp-action="CreateType">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+@* <html>
+    <head>
+        <title>
+            Create Type
+        </title>
+        <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            
+        </div>
+    </body>
+</html> *@

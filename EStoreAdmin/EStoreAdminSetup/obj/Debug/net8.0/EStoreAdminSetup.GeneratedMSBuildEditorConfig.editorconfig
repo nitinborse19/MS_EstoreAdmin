@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EStoreAdminSetup
+build_property.RootNamespace = EStoreAdminSetup
+build_property.ProjectDir = D:\Microservice\EStoreAdmin\EStoreAdmin\EStoreAdminSetup\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Microservice\EStoreAdmin\EStoreAdmin\EStoreAdminSetup
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Brand/BrandList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQnJhbmRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Brand/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Brand/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Product/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Product/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Type/CreateType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZVxDcmVhdGVUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Type/EditType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZVxFZGl0VHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Type/ListTypes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZVxMaXN0VHlwZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

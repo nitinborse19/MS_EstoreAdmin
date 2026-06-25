@@ -1,0 +1,74 @@
+﻿@using CatalogModel.Models.TypeModels;
+@model IEnumerable<TypeModel>;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-3 rounded">
+    <div class="h1 text-center">List of Types</div>
+    <hr />
+    <div class="row mt-3">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <a class="btn btn-outline-primary" asp-controller="Type" asp-action="CreateType">New Type</a>
+        </div>
+
+    </div>
+    <div class="row mt-3">
+        <table class="table table-primary">
+            <thead>
+                <tr>
+                    <td>Type Id</td>
+                    <td>Type Name</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Count() == 0)
+                {
+                    <tr>
+                        <td colspan="4"><div class="h1 text-center">No Types are Available</div></td>
+
+                    </tr>
+                }
+                else
+                {
+                    @foreach (TypeModel typeModel in Model)
+                    {
+                        <tr>
+                            <td>
+                                @typeModel.Id
+                            </td>
+                            <td>
+                                @typeModel.Name
+                            </td>
+                            <td>
+                                <a class="btn btn-outline-primary" asp-controller="Type" asp-action="EditType" asp-route-id="@typeModel.Id">Edit</a>
+                            </td>
+                            <td>
+                                <a class="btn btn-outline-danger" asp-controller="Type" asp-action="DeleteType" asp-route-id="@typeModel.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+@* <html>
+    <head>
+    <title>Type List</title>
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container"> *@
+            
+@*         </div>
+    </body>
+</html>
+ *@

@@ -1,0 +1,26 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Nitin@123
+    ports:
+      - "1433:1433"
+    networks:
+      - app-network
+
+  estoreadminsetup:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__Default=Server=sqlserver;Database=EstoreDB;User Id=sa;Password=Nitin@123;TrustServerCertificate=True;
+    ports:
+      - "8080:8080"
+    depends_on:
+      - sqlserver
+    networks:
+      - app-network
+
+networks:
+  app-network:

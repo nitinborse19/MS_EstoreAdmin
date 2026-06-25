@@ -1,0 +1,11 @@
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.deps.json
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.dll
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.pdb
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfoInputs.cache
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfo.cs
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.CoreCompileInputs.cache
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.dll
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\refint\Catalog.Core.dll
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.pdb
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\ref\Catalog.Core.dll

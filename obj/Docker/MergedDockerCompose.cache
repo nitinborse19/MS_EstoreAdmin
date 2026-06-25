@@ -1,0 +1,38 @@
+name: dockercompose10519761165094681351
+services:
+  estoreadminsetup:
+    build:
+      context: D:\Microservice\EStoreAdmin
+      dockerfile: EStoreAdmin/EStoreAdminSetup/Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ConnectionStrings__Default: Server=sqlserver;Database=EstoreDB;User Id=sa;Password=Nitin@123;TrustServerCertificate=True;
+    image: estoreadminsetup
+    networks:
+      app-network: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+  sqlserver:
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Nitin@123
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      app-network: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+networks:
+  app-network:
+    name: dockercompose10519761165094681351_app-network
