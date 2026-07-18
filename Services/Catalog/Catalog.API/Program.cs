@@ -11,11 +11,24 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-string conn = builder.Configuration.GetConnectionString("EStoreAdminDb");
+// Registered the Dependencies services
+builder.Services.RegisterService();
+
+string? conn = builder.Configuration.GetConnectionString("EStoreAdminDb");
 
 builder.Services.AddDbContext<BrandRepository>(option=>
 {
     option.UseSqlServer(conn);
+});
+
+builder.Services.AddDbContext<TypeRepository>(options =>
+{
+    options.UseSqlServer(conn);
+});
+
+builder.Services.AddDbContext<ProductRepository>(options =>
+{
+    options.UseSqlServer(conn);
 });
 
 builder.Services.Add(new ServiceDescriptor(

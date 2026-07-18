@@ -15,6 +15,7 @@ namespace Catalog.Core
 
         Task<bool> DeleteBrandById(Guid Id);
 
-
+        Task CreateBrand(CreateBrandModel model);
+        Task UpdateBrand(UpdateBrandModel updateBrandModel);
     }
 }

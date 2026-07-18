@@ -9,3 +9,4 @@ D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catal
 D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\refint\Catalog.Core.dll
 D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.pdb
 D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\ref\Catalog.Core.dll
+D:\Microservice\EStoreAdmin\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.sourcelink.json

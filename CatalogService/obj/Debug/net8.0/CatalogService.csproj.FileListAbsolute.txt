@@ -15,3 +15,4 @@ D:\Microservice\EStoreAdmin\CatalogService\obj\Debug\net8.0\CatalogService.dll
 D:\Microservice\EStoreAdmin\CatalogService\obj\Debug\net8.0\refint\CatalogService.dll
 D:\Microservice\EStoreAdmin\CatalogService\obj\Debug\net8.0\CatalogService.pdb
 D:\Microservice\EStoreAdmin\CatalogService\obj\Debug\net8.0\ref\CatalogService.dll
+D:\Microservice\EStoreAdmin\CatalogService\obj\Debug\net8.0\CatalogService.sourcelink.json

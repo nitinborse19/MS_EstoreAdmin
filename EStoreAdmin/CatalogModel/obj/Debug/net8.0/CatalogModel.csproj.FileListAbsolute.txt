@@ -10,3 +10,4 @@ D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogMod
 D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\refint\CatalogModel.dll
 D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.pdb
 D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\ref\CatalogModel.dll
+D:\Microservice\EStoreAdmin\EStoreAdmin\CatalogModel\obj\Debug\net8.0\CatalogModel.sourcelink.json

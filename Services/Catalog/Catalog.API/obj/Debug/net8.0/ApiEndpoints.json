@@ -1,0 +1,224 @@
+[
+  {
+    "ContainingType": "Catalog.API.Controller.BrandController",
+    "Method": "CreateBrand",
+    "RelativePath": "api/Brand/CreateBrand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Catalog.Core.Models.CreateBrandModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.BrandController",
+    "Method": "DeleteBrandById",
+    "RelativePath": "api/Brand/DeleteBrandById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.BrandController",
+    "Method": "GetBrandById",
+    "RelativePath": "api/Brand/GetBrandById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.BrandController",
+    "Method": "ListBrands",
+    "RelativePath": "api/Brand/ListBrands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.BrandController",
+    "Method": "UpdateBrand",
+    "RelativePath": "api/Brand/UpdateBrand",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateBrandModel",
+        "Type": "Catalog.Core.Models.UpdateBrandModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Product/CreateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDTO",
+        "Type": "Catalog.Application.DTOs.ProductDTOs.CreateProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.ProductController",
+    "Method": "DeleteProductById",
+    "RelativePath": "api/Product/DeleteProductById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.ProductController",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/Product/GetAllProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.ProductController",
+    "Method": "GetProductByBrand",
+    "RelativePath": "api/Product/GetProductByBrand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/UpdateProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDTO",
+        "Type": "Catalog.Application.DTOs.ProductDTOs.UpdateProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.TypeController",
+    "Method": "CreateType",
+    "RelativePath": "api/Type/CreateType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TypeName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.TypeController",
+    "Method": "DeleteType",
+    "RelativePath": "api/Type/DeleteType",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.TypeController",
+    "Method": "GetAllType",
+    "RelativePath": "api/Type/GetAllType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.TypeController",
+    "Method": "GetTypeById",
+    "RelativePath": "api/Type/GetTypeById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Catalog.API.Controller.TypeController",
+    "Method": "UpdateType",
+    "RelativePath": "api/Type/UpdateType",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateTypeDTO",
+        "Type": "Catalog.Application.DTOs.TypeDTOs.UpdateTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -15,3 +15,4 @@ D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\refint\CatalogRep
 D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.pdb
 D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.genruntimeconfig.cache
 D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\ref\CatalogRepository.dll
+D:\Microservice\EStoreAdmin\CatalogRepository\obj\Debug\net8.0\CatalogRepository.sourcelink.json

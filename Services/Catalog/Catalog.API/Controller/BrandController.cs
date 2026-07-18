@@ -17,8 +17,8 @@ namespace Catalog.API.Controller
         }
 
         [HttpGet]
-        [Route("ListProduct")]
-        public async Task<IActionResult> ListProduct()
+        [Route("ListBrands")]
+        public async Task<IActionResult> ListBrands()
         {
             List<BrandModel>  brands = await this._brandService.GetBrands();   
             return Ok(brands);
@@ -51,6 +51,43 @@ namespace Catalog.API.Controller
             await this._brandService.DeleteBrandById(Id);
 
             return Ok($"Brand with Id {Id} deleted successfully");
+        }
+
+        [HttpPost]
+        [Route("CreateBrand")]
+        public async Task<IActionResult> CreateBrand(CreateBrandModel model)
+        {
+            if(model == null)
+            {
+                throw new Exception("Create Brand model is null or empty");
+            }
+            if(model.BrandName == null || model.BrandName.Trim() == string.Empty)
+            {
+                throw new Exception("Brand Name is required");
+            }
+            await this._brandService.CreateBrand(model);
+            return Ok();
+        }
+
+        [HttpPut]
+        [Route("UpdateBrand")]
+        public async Task<IActionResult> UpdateBrand(UpdateBrandModel updateBrandModel)
+        {
+            if(updateBrandModel == null)
+            {
+                throw new Exception("Update Brand model is null or empty");
+            }
+            if(updateBrandModel.Id == Guid.Empty)
+            {
+                throw new Exception("Brand Id is required");
+            }
+            if(updateBrandModel.BrandName == null || updateBrandModel.BrandName.Trim() == string.Empty)
+            {
+
+               throw new Exception("Brand Name is required");
+            }
+            await this._brandService.UpdateBrand(updateBrandModel);
+            return Ok();
         }
     }
 }

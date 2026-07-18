@@ -152,3 +152,4 @@ D:\Microservice\EStoreAdmin\EStoreAdmin\EStoreAdminSetup\obj\Debug\net8.0\refint
 D:\Microservice\EStoreAdmin\EStoreAdmin\EStoreAdminSetup\obj\Debug\net8.0\EStoreAdminSetup.pdb
 D:\Microservice\EStoreAdmin\EStoreAdmin\EStoreAdminSetup\obj\Debug\net8.0\EStoreAdminSetup.genruntimeconfig.cache
 D:\Microservice\EStoreAdmin\EStoreAdmin\EStoreAdminSetup\obj\Debug\net8.0\ref\EStoreAdminSetup.dll
+D:\Microservice\EStoreAdmin\EStoreAdmin\EStoreAdminSetup\obj\Debug\net8.0\EStoreAdminSetup.sourcelink.json

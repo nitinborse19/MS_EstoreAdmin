@@ -14,12 +14,26 @@ namespace Catalog.Application
             _brandRepository = brandRepository;
         }
 
+        public async Task CreateBrand(CreateBrandModel model)
+        {
+            BrandModel brand = new BrandModel
+            {
+                Id = Guid.NewGuid(),
+                Name = model.BrandName
+            };
+
+            this._brandRepository.brands.Add(brand);
+            await this._brandRepository.SaveChangesAsync();
+        }
+
         public async Task<bool> DeleteBrandById(Guid Id)
         {
             if(Id == Guid.Empty)
                 throw new ArgumentException("Id is required", nameof(Id));
 
             var brand = await this._brandRepository.brands.FirstOrDefaultAsync(x => x.Id == Id);
+            this._brandRepository.brands.Remove(brand);
+            await this._brandRepository.SaveChangesAsync();
             return true;
         }
 
@@ -41,6 +55,18 @@ namespace Catalog.Application
             brandModels = await this._brandRepository.brands.ToListAsync();
              
             return brandModels;
+        }
+
+        public async Task UpdateBrand(UpdateBrandModel updateBrandModel)
+        {
+            BrandModel brandModel = new BrandModel
+            {
+                Id = updateBrandModel.Id,
+                Name = updateBrandModel.BrandName
+            };
+
+            this._brandRepository.brands.Update(brandModel);
+            await this._brandRepository.SaveChangesAsync();
         }
     }
 }

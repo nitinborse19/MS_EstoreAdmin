@@ -17,6 +17,8 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Microservice\EStoreAdmin\EStoreAdmin\EStoreAdminSetup
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
 [D:/Microservice/EStoreAdmin/EStoreAdmin/EStoreAdminSetup/Views/Brand/BrandList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQnJhbmRMaXN0LmNzaHRtbA==
